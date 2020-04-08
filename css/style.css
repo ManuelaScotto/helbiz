@@ -1,0 +1,414 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 10px;
+}
+
+/* utilità */
+.container_1000 {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.position_relative {
+  position:relative;
+}
+
+.line_height {
+  line-height: 80px;
+}
+
+.vertical_align {
+  vertical-align: middle;
+}
+
+.color_white {
+  color: white;
+}
+.ico_hamburger {
+  float: right;
+  font-size: 3.5em;
+  color: lightgrey;
+  line-height: 80px;
+  vertical-align: middle;
+
+}
+.lg_display_none {
+  display: none;
+}
+
+.lg_display_block {
+  display: block;
+}
+
+.wrapper {
+  padding: 40px;
+}
+
+.p_medium {
+  padding-bottom: 1.5rem;
+  font-size: 2.1em;
+}
+
+h1 {
+  font-size: 4.3em;
+  margin-bottom: 1rem;
+}
+
+/* HEADER */
+/* header top */
+.header_top {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  z-index: 3;
+}
+
+.header_menu li {
+  margin-right: 25px;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  text-align: left;
+  font-weight: 600;
+}
+
+.header_menu li a {
+  color: black;
+}
+
+.header_menu_lang li:not(:last-child) a {
+  border-right: 1px solid grey;
+  padding-right: 25px;
+}
+
+/* jumbo */
+.jumbo {
+  position: relative;
+  height: 600px;
+  margin-top: 80px;
+  background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url(../img/1_tzzPN9Nri1mNpOnhzlYBTQ@2x.jpeg);
+  background-size: cover;
+  background-position: 100% 80%;
+  color: white;
+}
+
+.jumbo_text p {
+  font-size: 1.5em;
+  margin-bottom: 1rem;
+}
+
+/* MAIN */
+/* helbiz */
+ .background_color_fa {
+  background-color: #FAFAFA;
+  margin-top: 50px;
+}
+
+.helbiz_logo {
+  height: 2em;
+  margin: 40px;
+}
+
+a.link_arrow {
+  font-size: 2.1em;
+  display: block;
+  color: #3978be;
+}
+a.link_arrow:after {
+  content: ">";
+  padding-left: .5rem;
+  vertical-align: middle;
+}
+a.link_arrow:hover span,
+a.link_arrow:active span,
+a.link_arrow:focus span {
+  text-decoration: underline;
+}
+.helbiz_img {
+  width: 40%;
+  padding-top: 1.5rem;
+}
+
+/* how */
+.how_background {
+  height: 380px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg);
+}
+
+.text {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.col_text {
+  width: calc(100% / 3);
+  height: 200px;
+}
+
+.how_title {
+  padding: 50px;
+  font-size: 3em;
+}
+
+.phone_div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: calc(100% / 3);
+  height: 200px;
+}
+
+.phone {
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  height: 55em;
+  transform: translateX(-50%);
+}
+
+.icone {
+  position: absolute;
+  top: 100%;
+  left: 48%;
+  margin-top: 15px;
+  margin-bottom: 40px;
+  font-size: 6px;
+}
+.icone i {
+  margin-left: 5px;
+}
+
+.how_p {
+  text-align: left;
+  font-size: 1.2em;
+}
+.how_step {
+  font-size: 1.5em;
+  padding: 50px 50px 10px 0;
+}
+
+/* alternative */
+.alternative .container {
+  margin-top: 50px;
+}
+.alternative_background {
+  background-image: url(https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 380px;
+  color: white;
+}
+
+
+.alternative_transform {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  width: 40%;
+  padding: 20px 100px 20px 0;
+}
+
+.alternative_padding a {
+  color: white;
+}
+
+/* download */
+.padding40_noleft {
+  padding: 40px 40px 40px 0;
+}
+.padding40_noright {
+  padding: 40px 0 40px 40px;
+}
+a.inline{
+  display: inline-block;
+  color: white;
+}
+.app {
+ height: 500px;
+ padding-top: 40px;
+ background: linear-gradient(to bottom right, #263644, #1D3356);
+ overflow: hidden;
+}
+.cities {
+  height: 500px;
+  padding-top: 40px;
+  background-image: linear-gradient(rgba(30, 0, 0, 0.5), rgba(30, 0, 0, 0.5)),url(../img/italy-4256016.jpg);
+  background-size: cover;
+}
+
+.phone_overflow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 600px;
+}
+/* media query MEDIUM */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .md_display_none {
+    display: none;
+  }
+  .md_display_block {
+    display: block;
+  }
+  .md_visibility_hidden {
+    visibility: hidden;
+  }
+  .header_top {
+    padding: 0 4%;
+  }
+  .jumbo {
+    background-position: center;
+  }
+  .jumbo_text img {
+    width: calc(100% / 4);
+    display: inline-block;
+  }
+  .how_background {
+  background-position: 30% 100%;
+  }
+  .md_alternative_font {
+    font-size: .8em;
+  }
+  .phone_div {
+    width: 100%;
+    order: 1
+  }
+  .text {
+    flex-wrap: wrap;
+  }
+  .col_text_top {
+    order: 2;
+    width: 100%;
+    height: 50px;
+  }
+  .how_title {
+    padding: 20px 0 0;
+    text-align: left;
+  }
+  .how_p {
+    order: 3;
+    width: 100%;
+    height:50px;
+  }
+  .alternative .container {
+    margin-top: 210px;
+  }
+}
+
+/* media query SMALL */
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 7px;
+  }
+  .xs_display_none {
+    display: none;
+  }
+  .xs_display_block {
+    display: block;
+  }
+  .xs_visibility_hidden {
+    visibility: hidden;
+  }
+  .header_top {
+    padding: 0 4%;
+  }
+  .jumbo {
+    background-position: center;
+  }
+  .jumbo_text h1 {
+    font-size: 3.5em;
+    margin-bottom: 1rem;
+  }
+  .jumbo_text p {
+    font-size: 2em;
+    margin-bottom: 1rem;
+  }
+  .jumbo_text {
+    width: 90%;
+  }
+  .jumbo_text img {
+    width: calc(100% / 5);
+    display: inline-block;
+  }
+  .wrapper {
+    padding: 1rem;
+  }
+  .background_color_fa {
+    margin-top: 10px;
+  }
+  .background_color_fa p {
+    padding-bottom: 1rem;
+    font-size: 2.8em;
+  }
+  a.link_arrow {
+    font-size: 2.8em;
+  }
+  .helbiz_img {
+    width: 30%;
+    padding-top: 1.5rem;
+  }
+  .how_background {
+  background-position: 30% 100%;
+  }
+  .phone_img {
+    top: 150px;
+  }
+  .alternative_transform {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    padding: 0;
+  }
+  .md_alternative_font {
+    font-size: 1em;
+  }
+  .alternative_background {
+    background-position: 40% 100%;
+  }
+  .phone_div {
+    width: 100%;
+    order: 1
+  }
+  .text {
+    flex-wrap: wrap;
+  }
+  .col_text_top {
+    order: 2;
+    width: 100%;
+    height: 50px;
+  }
+  .how_title {
+    padding: 40px 0 0;
+    text-align: left;
+
+  }
+  .how_p {
+    order: 3;
+    width: 100%;
+    height:50px;
+  }
+  .alternative  {
+    margin-top: 150px;
+    padding: 5px 10px;
+  }
+  .how_step {
+    padding-top: 30px;
+  }
+  .padding40_noleft,
+  .padding40_noright {
+    padding: 5px 10px;
+  }
+  .app ,
+  .cities {
+    height: 400px;
+  }
+}

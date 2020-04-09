@@ -286,6 +286,67 @@ h2 {
   padding-top: 10px;
   font-size: 25px;
 }
+
+/* footer */
+footer {
+  background-color: black;
+  color: white;
+  padding: 100px 0;
+  font-size: 16px;
+}
+.footer-logo {
+  padding-top: .25em;
+}
+h3 {
+  padding: 0 20px 20px;
+}
+footer ul {
+  list-style: none;
+  padding-left: 20px;
+}
+footer ul li a {
+ color: #6e8493;
+ line-height: 2;
+ font-size: 15px;
+}
+
+.footer-top {
+  height: 300px;
+}
+
+.footer-main {
+  height: 100px;
+  border-top: 1px solid #424242;
+  border-bottom: 1px solid #424242;
+  line-height: 100px;
+
+}
+.footer-main i {
+  font-size: 18px;
+  padding: 10px 15px 10px 0;
+  vertical-align: middle;
+}
+.footer-main a {
+  font-size: 14px;
+  color: white;
+  padding-left: 20px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.footer-bottom a {
+  text-align: center;
+}
+.footer-bottom img {
+  width: 80%;
+  margin-top: 20px;
+  margin-left: 10px;
+  border: 1px solid #858a92;
+  border-radius: 8px;
+}
+
 /* media query MEDIUM */
 @media screen and (min-width: 768px) and (max-width: 992px) {
   .md_display_none {
@@ -337,6 +398,25 @@ h2 {
   .alternative .container {
     margin-top: 210px;
   }
+  .footer-logo {
+    padding-bottom: 4em;
+  }
+  h3 {
+    padding: 0 20px 20px 0;
+  }
+  footer ul {
+    padding-left: 0;
+  }
+  .footer-top {
+    height: 400px;
+  }
+  .footer-main i {
+    font-size: 12px;
+  }
+  .footer-bottom img {
+    width: 70%;
+  }
+
 }
 
 /* media query SMALL */
@@ -446,4 +526,39 @@ h2 {
   .cities {
     height: 400px;
   }
+  .helbiz-family {
+    margin-top: 10px;
+  }
+  .container-helbiz-family {
+    max-width: 90%;
+    height: 170px;
+  }
+
+ .footer-logo {
+    padding-bottom: 4em;
+  }
+  h3 {
+    padding: 40px 20px 20px 0;
+  }
+  footer ul {
+    padding-left: 0;
+  }
+  .footer-top {
+    height: 900px;
+  }
+  .footer-main {
+    height: 280px;
+  }
+  .footer-main a {
+    display: block;
+    padding-left: 0;
+    line-height: 3.3;
+  }
+  .footer-bottom {
+    flex-wrap: wrap;
+  }
+  .footer-bottom img {
+    width: 50%;
+  }
+
 }

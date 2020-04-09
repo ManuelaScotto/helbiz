@@ -108,6 +108,9 @@ a {
 .col-lg-12 {
   width: calc((100% / 12) * 12);
 }
+.lg-display-none {
+  display: none;
+}
 
 /* COLONNE MEDIUM */
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -192,6 +195,9 @@ a {
   }
   .xs-display-none {
     display: none;
+  }
+  .xs-display-block {
+    display: block;
   }
 }
 
